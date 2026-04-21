@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #eee;
+  text-align: center;
+}
+
+nav {
+  padding: 15px;
+  background: #000;
+  border-bottom: 1px solid #222;
+}
+
+nav a {
+  color: #888;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.container {
+  padding: 50px 20px;
+}
+
+h1 {
+  font-size: 42px;
+  letter-spacing: 4px;
+}
+
+.tagline {
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: #1a1a1a;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 420px;
+  border-radius: 18px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.6);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
